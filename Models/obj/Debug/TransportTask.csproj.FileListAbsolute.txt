@@ -1,0 +1,5 @@
+D:\_ddraganov\DD_Projects\TestProjects\TransportTask\TransportTask\bin\Debug\CSA_Algortihm.dll
+D:\_ddraganov\DD_Projects\TestProjects\TransportTask\TransportTask\bin\Debug\CSA_Algortihm.pdb
+D:\_ddraganov\DD_Projects\TestProjects\TransportTask\TransportTask\obj\Debug\TransportTask.csprojResolveAssemblyReference.cache
+D:\_ddraganov\DD_Projects\TestProjects\TransportTask\TransportTask\obj\Debug\CSA_Algortihm.dll
+D:\_ddraganov\DD_Projects\TestProjects\TransportTask\TransportTask\obj\Debug\CSA_Algortihm.pdb
