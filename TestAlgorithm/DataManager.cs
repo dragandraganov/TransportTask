@@ -22,7 +22,7 @@ namespace TestAlgorithm
                     conn.DepartureStop.MinutesToArrive = 0;
                 }
 
-                //conn.ArrivalStop.MinMinutesToArrive = int.MaxValue;
+                conn.ArrivalStop.MinutesToArrive = int.MaxValue;
             }
         }
     }

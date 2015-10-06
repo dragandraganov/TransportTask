@@ -16,3 +16,14 @@ D:\_ddraganov\DD_Projects\TestProjects\TransportTask\TestAlgorithm\bin\Debug\Too
 D:\_ddraganov\DD_Projects\TestProjects\TransportTask\TestAlgorithm\bin\Debug\Tools.pdb
 D:\_ddraganov\DD_Projects\TestProjects\TransportTask\TestAlgorithm\bin\Debug\CSA_Algortihm.pdb
 D:\_ddraganov\DD_Projects\TestProjects\TransportTask\TestAlgorithm\obj\Debug\TestAlgorithm.csprojResolveAssemblyReference.cache
+C:\Users\Dragu Chaya\Downloads\TransportTask-master\TransportTask-master\TestAlgorithm\obj\Debug\TestAlgorithm.exe
+C:\Users\Dragu Chaya\Downloads\TransportTask-master\TransportTask-master\TestAlgorithm\obj\Debug\TestAlgorithm.pdb
+C:\Users\Dragu Chaya\Downloads\TransportTask-master\TransportTask-master\TestAlgorithm\bin\Debug\TestAlgorithm.exe
+C:\Users\Dragu Chaya\Downloads\TransportTask-master\TransportTask-master\TestAlgorithm\bin\Debug\TestAlgorithm.pdb
+C:\Users\Dragu Chaya\Downloads\TransportTask-master\TransportTask-master\TestAlgorithm\bin\Debug\CSA_Algortihm.dll
+C:\Users\Dragu Chaya\Downloads\TransportTask-master\TransportTask-master\TestAlgorithm\bin\Debug\Tools.dll
+C:\Users\Dragu Chaya\Downloads\TransportTask-master\TransportTask-master\TestAlgorithm\bin\Debug\CSA_Algortihm.pdb
+C:\Users\Dragu Chaya\Downloads\TransportTask-master\TransportTask-master\TestAlgorithm\bin\Debug\Tools.pdb
+C:\Users\Dragu Chaya\Downloads\TransportTask-master\TransportTask-master\TestAlgorithm\obj\Debug\TestAlgorithm.csprojResolveAssemblyReference.cache
+D:\Projects\TransportTask\TestAlgorithm\obj\Debug\TestAlgorithm.exe
+D:\Projects\TransportTask\TestAlgorithm\obj\Debug\TestAlgorithm.pdb

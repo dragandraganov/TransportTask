@@ -10,7 +10,7 @@ namespace TestAlgorithm
     {
         public List<Connection> FindShortestPath(string startStopName, string targetStopName, List<Connection> actualConnections, List<Connection> remainingConnections, out Stop endStop, out Stack<Stop> shortestPath)
         {
-            while (actualConnections.Count() > 0)
+            while (remainingConnections.Count() > 0)
             {
                 remainingConnections = remainingConnections
                     .OrderBy(c => c.DepartureStop.MinutesToArrive)
@@ -25,12 +25,9 @@ namespace TestAlgorithm
                     .First()
                     .DepartureStop;
 
-                var busLine = remainingConnections
-                    .First()
-                    .BusLine;
+                //var busLine = nextStop.BusLineInShortestPath;
 
-                var arrivalTime = remainingConnections
-                   .First().ArrivalTime;
+                var arrivalTime = nextStop.ArrivalTime;
 
                 var nextConnections = remainingConnections
                     .Where(c => c.DepartureStop == nextStop)
@@ -38,18 +35,14 @@ namespace TestAlgorithm
 
                 foreach (var conn in nextConnections)
                 {
-                    var additionalTime = 0.00;
-
-                    if (conn.BusLine != busLine)
-                    {
-                        additionalTime = (conn.DepartureTime.TimeOfDay - arrivalTime.TimeOfDay).TotalMinutes;
-                    }
+                    var additionalTime = (conn.DepartureTime.TimeOfDay - arrivalTime.TimeOfDay).TotalMinutes;
 
                     if (conn.ArrivalStop.MinutesToArrive > (conn.DepartureStop.MinutesToArrive + conn.TimeOfArrival + additionalTime))
                     {
                         conn.ArrivalStop.MinutesToArrive = conn.DepartureStop.MinutesToArrive + conn.TimeOfArrival + additionalTime;
                         conn.ArrivalStop.PreviousStop = conn.DepartureStop;
                         conn.ArrivalStop.BusLineInShortestPath = conn.BusLine;
+                        conn.ArrivalStop.ArrivalTime = conn.ArrivalTime;
                     }
 
                     remainingConnections.Remove(conn);
@@ -58,8 +51,8 @@ namespace TestAlgorithm
             }
 
             endStop = actualConnections
-                .FirstOrDefault(c => c.DepartureStop.Name == targetStopName)
-                .DepartureStop;
+                .FirstOrDefault(c => c.ArrivalStop.Name == targetStopName)
+                .ArrivalStop;
 
             shortestPath = new Stack<Stop>();
             shortestPath.Push(endStop);
@@ -70,6 +63,7 @@ namespace TestAlgorithm
                 shortestPath.Push(previousStop);
                 previousStop = previousStop.PreviousStop;
             }
+
             return remainingConnections;
         }
     }

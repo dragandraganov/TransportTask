@@ -16,5 +16,7 @@ namespace Models
         public virtual Stop PreviousStop { get; set; }
 
         public virtual BusLine BusLineInShortestPath { get; set; }
+
+        public DateTime ArrivalTime { get; set; }
     }
 }

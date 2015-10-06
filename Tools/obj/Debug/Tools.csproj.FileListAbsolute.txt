@@ -8,3 +8,7 @@ D:\_ddraganov\DD_Projects\TestProjects\TransportTask\Tools\bin\Debug\Tools.pdb
 D:\_ddraganov\DD_Projects\TestProjects\TransportTask\Tools\obj\Debug\Tools.dll
 D:\_ddraganov\DD_Projects\TestProjects\TransportTask\Tools\obj\Debug\Tools.pdb
 D:\_ddraganov\DD_Projects\TestProjects\TransportTask\Tools\obj\Debug\Tools.csprojResolveAssemblyReference.cache
+C:\Users\Dragu Chaya\Downloads\TransportTask-master\TransportTask-master\Tools\bin\Debug\Tools.dll
+C:\Users\Dragu Chaya\Downloads\TransportTask-master\TransportTask-master\Tools\bin\Debug\Tools.pdb
+C:\Users\Dragu Chaya\Downloads\TransportTask-master\TransportTask-master\Tools\obj\Debug\Tools.dll
+C:\Users\Dragu Chaya\Downloads\TransportTask-master\TransportTask-master\Tools\obj\Debug\Tools.pdb

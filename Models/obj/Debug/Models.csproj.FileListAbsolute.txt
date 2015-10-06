@@ -3,3 +3,8 @@ D:\_ddraganov\DD_Projects\TestProjects\TransportTask\Models\bin\Debug\CSA_Algort
 D:\_ddraganov\DD_Projects\TestProjects\TransportTask\Models\obj\Debug\CSA_Algortihm.dll
 D:\_ddraganov\DD_Projects\TestProjects\TransportTask\Models\obj\Debug\CSA_Algortihm.pdb
 D:\_ddraganov\DD_Projects\TestProjects\TransportTask\Models\obj\Debug\Models.csprojResolveAssemblyReference.cache
+C:\Users\Dragu Chaya\Downloads\TransportTask-master\TransportTask-master\Models\bin\Debug\CSA_Algortihm.dll
+C:\Users\Dragu Chaya\Downloads\TransportTask-master\TransportTask-master\Models\bin\Debug\CSA_Algortihm.pdb
+C:\Users\Dragu Chaya\Downloads\TransportTask-master\TransportTask-master\Models\obj\Debug\Models.csprojResolveAssemblyReference.cache
+C:\Users\Dragu Chaya\Downloads\TransportTask-master\TransportTask-master\Models\obj\Debug\CSA_Algortihm.dll
+C:\Users\Dragu Chaya\Downloads\TransportTask-master\TransportTask-master\Models\obj\Debug\CSA_Algortihm.pdb
